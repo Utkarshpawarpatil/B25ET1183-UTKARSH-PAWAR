@@ -1,13 +1,11 @@
 #include <iostream>
 using namespace std;
 
-// Convert meters to centimeters
 float convert(float meters)
 {
     return meters * 100;
 }
 
-// Convert kilometers to meters
 float convert(double kilometers)
 {
     return kilometers * 1000;
